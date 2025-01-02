@@ -12,6 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 59px;
 }
 
 .flex-nav {
@@ -306,6 +307,9 @@ a {
 
 .review1{
 width: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
 background-color: #222831;
 border-radius: 48px;
 display: flex;
@@ -333,12 +337,15 @@ p{
 }
 
 .stars{
-  margin-top: 50px;
+  padding: 10px;
  
 }
 
 .review2{
   width: 450px;
+  display: flex;
+justify-content: center;
+align-items: center;
   background-color: #222831;
   border-radius: 48px;
   display: flex;
