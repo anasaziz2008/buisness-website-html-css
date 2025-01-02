@@ -61,14 +61,14 @@ a {
 
 .img-text{
   position: absolute; /* Absolute positioning relative to the container */
-  top: 50%; /* Center vertically */
+  top: 50%; 
   left: 40%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for perfect centering */
+  transform: translate(-50%, -50%);
 }
 
 .main-text{
   color: white; /* Text color */
-  font-size: 90px; /* Text size */
+  font-size: 108px; /* Text size */
   font-weight: bold; /* Make the text bold */
   margin-bottom: 0px;
   font-family: 'Playfair Display', serif;
@@ -76,7 +76,7 @@ a {
 
 .description{
   color: white;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
 }
