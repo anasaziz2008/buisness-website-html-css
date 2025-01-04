@@ -49,42 +49,56 @@ p{
     text-align: center;
   }
 
-  /* .home {
-    background-image: url('images/connect.png');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  .img-container{
+    position: relative;
+  }
+  
+  .main-pic{
+    padding: 0%;
+    margin: 0%;
+    Width: 100%;
+    opacity: 70%;
+  }
+  
+  .img-text{
+    position: absolute; /* Absolute positioning relative to the container */
+    text-align: center;
+    top: 45%; 
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+  }
+  
+  .main-text{
+    color: white; /* Text color */
+    font-size: 72px;
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .description{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .contact{
+    cursor: pointer;
+    background-color: #008A90;
+    color: white;
+    width: 250px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
   }
 
-  .hometext h1{
-    font-family: 'Playfair Display', sans-serif;
-    color: white;
-    font-size: 72px;
-    line-height: 77px;
-    font-weight: 800;
-  }
-
-    .hometext p{
-        font-family: 'Fira Sans', sans-serif;
-        color: white;
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 500;
-    }
-
-    .hometext button{
-        background-color: #008a90;
-        color: white;
-        text-align: center;
-        width: 250px;
-        height: 65px;
-        border-radius: 8px;
-    } */
-
 
     .connect{
+      margin-top: 80px;
         display: flex;
         background-color: #222831;
         gap: 80px;
