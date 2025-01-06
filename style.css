@@ -1,20 +1,11 @@
-body {
-  margin: 0;
-}
-
-
-p{
-  font-family: 'Fira Sans', sans-serif;
-}
-
 nav {
   background-color: #222831;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 59px;
-}
+  color: white;
+ }
+ 
 
+
+/*
 .flex-nav {
  display: flex;
  align-items: center;
@@ -60,16 +51,16 @@ a {
 }
 
 .img-text{
-  position: absolute; /* Absolute positioning relative to the container */
+  position: absolute; 
   top: 50%; 
-  left: 40%; /* Center horizontally */
+  left: 40%; 
   transform: translate(-50%, -50%);
 }
 
 .main-text{
-  color: white; /* Text color */
-  font-size: 108px; /* Text size */
-  font-weight: bold; /* Make the text bold */
+  color: white; 
+  font-size: 108px; 
+  font-weight: bold; 
   margin-bottom: 0px;
   font-family: 'Playfair Display', serif;
 }
@@ -204,19 +195,18 @@ a {
 
 .money h1{
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 46px;
+  font-weight: 800;
 }
 
-.Check{
-  height: 10px;
-  width: 10px;
-  padding: 17.5px 8px;
+.todo{
+  margin-top: 15px;
 }
 
 .todo p{
   display: flex;
   align-items: center;
-  margin-bottom: -20px;
+  margin-bottom: 15px;
   font-family: 'Fira Sans', sans-serif;
 }
 
@@ -398,12 +388,12 @@ align-items: center;
  
 
   input{
-    width: 100%; /* Full width */
-    padding: 10px; /* Inner spacing */
-    margin: 10px 0; /* Spacing around the input */
-    border: 1px solid #ccc; /* Border styling */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Text size */
+    width: 100%;
+    padding: 10px; 
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
     background-color: #222831;
 }
 
@@ -491,7 +481,7 @@ hr {
   margin-left: 5%;
   height: 1px;
   border: none;
-  background-color: white;  /* or any color of your choice */
+  background-color: white; 
 }
 
 .copyright{
@@ -567,4 +557,4 @@ border: none;
 
 input::placeholder{
   color: white;
-}
+} */
