@@ -3,6 +3,10 @@ main{
   color: white;
 }
 
+.navbar{
+  background-color: #222831 !important;
+}
+
 .home-page{
   position: relative;
 }

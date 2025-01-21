@@ -1,181 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="aboutus.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="aboutus.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <title>buisness-website</title>
 </head>
 
 <body>
-
-    <nav>
-        <a href="index.html"><img class="brand-img" src="images/Brand.png" /></a>
-        <div class="flex-nav">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="case.html">Case Study</a></li>
-                <a href="contact.html"><button class="join">Contact Us</button></a>
-            </ul>
-        </div>
-    </nav>
-
-
-    <div class="mission">
-        <div class="mission-text">
-            <h2>Our Mission</h2>
-            <p>We strive to empower businesses with scalable and secure cloud solutions that enhance productivity and
-                drive innovation.</p>
-        </div>
-
-        <div class="mission-img">
-            <img src="/images/aboutus/Mission.png" />
-        </div>
-    </div>
-
-
-    <div class="choose">
-        <div class="choose-title">
-            <h2>Why Choose Us?</h2>
-            <p>Your trusted partner in cloud solutions.</p>
-        </div>
-
-        <div class="reasons">
-
-            <div class="reason1 allreasons">
-                <img style=" width: 26px; margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>Scalable Solutions</h3>
-                    <p>Our services grow with your business, ensuring you have the resources you need at every stage.
-                    </p>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/images/Brand.svg" class="brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-3">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="case.html">Case Study</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <button type="button" href="contact.html" class="btn btn-nav text-white"
+                                style="background-color: #008A90;">Contact Us</button>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+        </nav>
+    </header>
 
-            <div class="reason2 allreasons">
-                <img style="width: 26px;  margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>24/7 Support</h3>
-                    <p>Our dedicated support team is available around the clock to assist you with any issues.
-                    </p>
-                </div>
-            </div>
 
-            <div class="reason3 allreasons">
-                <img style="width: 26px;  margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>Data Security</h3>
-                    <p>We prioritize your data's safety with advanced security measures and compliance standards.
-                    </p>
-                </div>
-            </div>
-            <div class="reason4 allreasons">
-                <img style="width: 26px;  margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>Cost Efficiency</h3>
-                    <p>Optimize your IT budget with our flexible pricing models tailored to your needs.
-                    </p>
-                </div>
-            </div>
 
-            <div class="reason5 allreasons">
-                <img style="width: 26px;  margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>User-Friendly Interface</h3>
-                    <p>Experience seamless navigation and management with our intuitive platform.
-                    </p>
-                </div>
-            </div>
 
-            <div class="reason6 allreasons">
-                <img style="width: 26px; margin-top: -12px;" src="/images/aboutus/reason.svg">
-                <div>
-                    <h3>Innovative Technology</h3>
-                    <p> Leverage the latest advancements in cloud technology to stay ahead of the competition.
-                    </p>
+    <main>
+        <div class="container-fluid mission py-5 d-none d-md-block">
+            <div class="row d--flex flex-lg-row flex-column align-items-center justify-content-around">
+                <div
+                    class="mission-text col-10 col-lg-5 d-flex flex-column align-items-start order-md-2 order-lg-1 py-sm-5">
+                    <h1>Our Mission</h1>
+                    <p class="py-3">We strive to empower businesses with scalable and secure cloud solutions that
+                        enhance productivity and drive innovation.</p>
+                </div>
+                <div class="mission-img col-10 col-lg-5 px-0 order-md-1 order-lg-2">
+                    <img src="/images/aboutus/Mission.png" class="img-fluid w-100">
                 </div>
             </div>
         </div>
-    </div>
 
 
-
-    <div class="team">
-        <div class="team-title">
-            <h2>Meet Our Team</h2>
-            <p>Our diverse team of experts is committed to delivering exceptional cloud solutions.</p>
-        </div>
-
-        <div class="members">
-
-            <div class="member1 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member1.svg">
-                   <h4>Alice Johnson</h4>
-                   <p>Chief Executive Officer</p>
-            </div>
-
-            <div class="member2 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member2.svg">
-                <div>
-                    <h4>Michael Smith</h4>
-                    <p>Chief Technology Officer</p>
+        <div class="container-fluid mission-sm d-block d-md-none">
+            <div class="row d-flex flex-column align-items-center justify-content-around">
+                <div class="mission-img col-12 px-0">
+                    <img src="/images/aboutus/Mission.png" class="img-fluid w-100">
                 </div>
-            </div>
-
-            <div class="member3 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member3.svg">
-                <div>
-                    <h4>Sarah Brown</h4>
-                    <p>Head of Marketing</p>
-                </div>
-            </div>
-            <div class="member4 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member4.svg">
-                <div>
-                    <h4>David Wilson</h4>
-                    <p>Lead Developer</p>
-                </div>
-            </div>
-
-            <div class="member5 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member5.svg">
-                <div>
-                    <h4>Emily Davis</h4>
-                    <p>Customer Success Manager</p>
-                </div>
-            </div>
-
-            <div class="member6 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member6.svg">
-                <div>
-                    <h4>James Taylor</h4>
-                    <p>Cloud Architect</p>
-                </div>
-            </div>
-
-            <div class="member7 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member7.svg">
-                <div>
-                    <h4>Laura Martinez</h4>
-                    <p>Sales Director</p>
-                </div>
-            </div>
-
-            <div class="member8 allmembers">
-                <img class="member-img" src="/images/aboutus/members/member8.svg">
-                <div>
-                    <h4>John David</h4>
-                    <p>Designer</p>
+                <div class="mission-text-sm col-12 d-flex flex-column align-items-start py-3">
+                    <h1>Our Mission</h1>
+                    <p class="py-3">We strive to empower businesses with scalable and secure cloud solutions that
+                        enhance productivity and drive innovation.</p>
                 </div>
             </div>
         </div>
-    </div>
 
 
+       
+
+        <div class="container-fluid py-5 choose">
+                <div class="choose-title text-center mb-5">
+                    <h2 class="display-3 fw-bold mt-lg-5">Why Choose Us?</h2>
+                    <p class="lead fs-4">Your trusted partner in cloud solutions</p>
+                </div>
+               
+            <div class="row gap-3 mb-lg-5 justify-content-center">
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>Scalable Solutions</h3>
+                            <p>Our services grow with your business, ensuring you have the resources you need at
+                                every stage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>24/7 Support</h3>
+                            <p>Our dedicated support team is available around the clock to assist you with any issues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>Data Security</h3>
+                            <p>We prioritize your data's safety with advanced security measures and compliance
+                                standards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>Cost Efficiency</h3>
+                            <p>Optimize your IT budget with our flexible pricing models tailored to your needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>User-Friendly Interface</h3>
+                            <p>Experience seamless navigation and management with our intuitive platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3 my-2">
+                    <div class="reasons d-flex">
+                        <img src="/images/aboutus/reason.svg" class="px-3">
+                        <div>
+                            <h3>Innovative Technology</h3>
+                            <p> Leverage the latest advancements in cloud technology to stay ahead of the competition.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container-fluid team text-center mt-5">
+            <div class="team-title">
+                <h2 class="display-3 fw-bold mt-lg-5">Meet Our Team</h2>
+                <p class="lead fs-4">Our diverse team of experts is committed to delivering exceptional cloud solutions.</p>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members">
+                        <img class="member-img" src="/images/aboutus/members/member1.svg">
+                        <div>
+                           <h4>Alice Johnson</h4>
+                           <p>Chief Executive Officer</p>
+                    </div>
+                </div>
+                </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3  mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member2.svg">
+                        <div>
+                            <h4>Michael Smith</h4>
+                            <p>Chief Technology Officer</p>
+                        </div>
+                    </div>
+                </div>
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member3.svg">
+                        <div>
+                            <h4>Sarah Brown</h4>
+                            <p>Head of Marketing</p>
+                        </div>
+                    </div>
+                    </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member4.svg">
+                        <div>
+                            <h4>David Wilson</h4>
+                            <p>Lead Developer</p>
+                        </div>
+                    </div>
+                    </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member5.svg">
+                        <div>
+                            <h4>Emily Davis</h4>
+                            <p>Customer Success Manager</p>
+                        </div>
+                    </div>
+                    </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member6.svg">
+                        <div>
+                            <h4>James Taylor</h4>
+                            <p>Cloud Architect</p>
+                        </div>
+                    </div>
+                    </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member7.svg">
+                        <div>
+                            <h4>Laura Martinez</h4>
+                            <p>Sales Director</p>
+                        </div>
+                    </div>
+                </div>
+        
+                   <div class="col-12 col-md-5 col-lg-3 mt-4">
+                    <div class="members d-flex flex-column align-items-center justify-content-center">
+                        <img class="member-img" src="/images/aboutus/members/member8.svg">
+                        <div>
+                            <h4>John David</h4>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+ 
     <div class="clients-review">
         <h1>What our customers say</h1>
         <p>Real feedback from satisfied customers.</p>
@@ -332,4 +446,4 @@
     
 </body>
 
-</html>
+</html> -->
