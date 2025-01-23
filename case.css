@@ -68,6 +68,26 @@ color: white;
 }
 
 
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+
+.copyright li{
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+
+
+.social-media-links{
+  gap: 10px;
+  list-style-type: none;
+}
+
 /* body {
     margin: 0;
     background-color: #222831;
