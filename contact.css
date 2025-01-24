@@ -1,78 +1,154 @@
-body {
-    margin: 0;
-    background-color: #222831;
-  }
+main{
+  background-color: #222831;
+  color: white;
+}
 
-p{
-    font-family: 'Fira Sans', sans-serif;
-    color: white;
-  }
-  
-  nav {
-    background-color: #222831;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 59px;
-    margin: 0%;
-  }
-  
-  .flex-nav {
-   display: flex;
-   align-items: center;
-   margin-right: 30px;
-  }
-  
-  .nav-links {
-    color: white;
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    list-style-type: none;
-    gap: 30px; 
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .join {
-    cursor: pointer;
-    background-color: #008a90;
-    width: 86px;
-    height: 43px; 
-    border-radius: 8px;
-    border: none;
-    gap: 20px;
-    color: white;
-    text-align: center;
-  }
+.navbar{
+  background-color: #222831 !important;
+}
 
+.img-container{
+  position: relative;
+}
 
-  .img-container{
-    position: relative;
-  }
-  
+.main-pic{
+  padding: 0%;
+  margin: 0%;
+  Width: 100%;
+  opacity: 70%;
+}
+
+@media (max-width: 576px) {
   .main-pic{
-    padding: 0%;
-    margin: 0%;
-    Width: 100%;
-    opacity: 70%;
+    height: 350px;
   }
-  
-  .img-text{
-    position: absolute; /* Absolute positioning relative to the container */
-    text-align: center;
-    top: 45%; 
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%);
+}
+
+.img-text{
+  position: absolute; 
+  text-align: center;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.img-text h1{
+  font-weight: 800; 
+  font-family: 'Playfair Display', serif;
+}
+
+.img-text p{
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.custom-input {
+  background-color: #222831 !important; 
+  color: white !important; 
+  border: none;
+  height: 60px; 
+}
+.custom-input::placeholder {
+color: white !important;
+opacity: 0.7 !important; 
+font-size: 20px;
+}
+
+.custom-text-area {
+background-color: #222831 !important; 
+color: white !important; 
+border: none;
+
+}
+
+.custom-text-area::placeholder {
+color: white !important; 
+opacity: 0.7 !important;
+font-size: 20px;
+}
+.custom-input:focus {
+outline: none;
+box-shadow:  none !important; 
+}
+.contact-info h1{
+font-family: 'Playfair Display', serif;
+font-weight: 800;
+
+}
+
+
+.contact-info-lg h1{
+font-family: 'Playfair Display', serif;
+font-weight: 800;
+font-size: 56px;
+}
+
+.img-fluid{
+height: 100% !important;
+}
+
+
+
+@media (max-width: 576px) {
+  .contact-img{
+   height: 350px;
   }
-  
+}
+
+@media (min-width:768px) {
+  .contact-img{
+   height: 600px;
+  }
+}
+
+
+
+.mission-text h1{
+  color: #00ADB5;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.mission-text p{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+
+
+.mission-text-sm h1{
+  color: #00ADB5;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.mission-text-sm p{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+
+}
+
+.services h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+
+.works{
+  background-color: #393E46;
+}
+
+/* 
   .main-text{
-    color: white; /* Text color */
+    color: white; 
     font-size: 72px;
-    font-weight: bold; /* Make the text bold */
+    font-weight: bold; 
     margin-bottom: 0px;
     font-family: 'Playfair Display', serif;
   }
@@ -130,12 +206,12 @@ p{
     
       input{
 
-        width: 100%; /* Full width */
-        padding: 10px; /* Inner spacing */
-        margin: 10px 0; /* Spacing around the input */
-        border: 1px solid #ccc; /* Border styling */
-        border-radius: 5px; /* Rounded corners */
-        font-size: 16px; /* Text size */
+        width: 100%; 
+        padding: 10px; 
+        margin: 10px 0;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        font-size: 16px;
         background-color: #222831;
     }
 
@@ -424,7 +500,7 @@ p{
         margin-left: 5%;
         height: 1px;
         border: none;
-        background-color: white;  /* or any color of your choice */
+        background-color: white;  
       }
       
       .copyright{
@@ -481,4 +557,4 @@ p{
         gap: 50px;
         margin-left: 5%;
       }
-      
+       */
