@@ -144,6 +144,49 @@ height: 100% !important;
   background-color: #393E46;
 }
 
+.works h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.client-reviews h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.review{
+  background-color: #393E46;
+  border-radius: 32px;
+}
+
+
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+
+.copyright li{
+  font-family: 'Lato', sans-serif;
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+
+
+.social-media-links{
+  gap: 10px;
+  list-style-type: none;
+}
+
+
+@media (min-width: 992px) { 
+  .footer{
+    margin-top: 8rem !important;
+  }
+}
+
 /* 
   .main-text{
     color: white; 
